@@ -1,0 +1,138 @@
+.body{
+ font-family: 'Manrope', sans-serif;
+ max-width: 100vh;
+}
+/* utility classes  */
+H1{
+ font-size: 2.5rem;
+ letter-spacing: 1px;
+ line-height: 58px;
+ padding-top: 12px;
+ padding-bottom: 12px;
+}
+h2{
+ font-size: 2.3rem;
+ letter-spacing: 1.5px;
+ line-height: 44px;
+  padding-top: 12px;
+ padding-bottom: 12px;
+}
+H3{
+ font-size: 2rem;
+ letter-spacing: 1.15px;
+ line-height: 36px;
+  padding-top: 12px;
+ padding-bottom: 12px;
+}
+h4{
+ font-size: 1.7rem;
+ letter-spacing: 2px;
+ line-height: 38px;
+  padding-top: 12px;
+ padding-bottom: 12px;
+}
+h5{
+ font-size: 1.5;
+ letter-spacing: 1.7px;
+ line-height: 33px;
+}
+h6{
+ font-size: 1.25;
+ letter-spacing: 8px;
+ line-height: 24px;
+ font-weight: lighter;
+}
+p{
+ font-size: 1rem;
+ line-height: 25px;
+ font-weight: medium;
+  padding-top: 12px;
+ padding-bottom: 12px;
+}
+.sub-head{
+ color:rgb(216, 125, 74) ;
+}
+.nav-link{
+ font-size: 13px;
+ letter-spacing: 1.7px;
+ color: white;
+ font-weight: bold;
+}
+
+.nav-link:hover{
+color: rgb(216, 125, 74);
+}
+.image-container{
+ width: 100%;
+ height: auto;
+}
+/* buttons  */
+.btn{
+ background-color:rgb(216, 125, 74);
+ border: rgb(216, 125, 74);
+ border-radius: 0;
+ padding: 8px 24px;
+ margin-top: 12px;
+ margin-bottom: 12px;
+}
+.btn:hover{
+ background-color:rgb(251, 175, 133);}
+
+ .buy-section{
+ width: 100vw;
+ margin-bottom: 5rem;
+}
+.btn3{
+ border: transparent;
+ background-color: transparent;
+ color: rgb(110, 107, 107);
+}
+.btn3:hover{
+ color: rgb(216, 125, 74);
+}
+.buy-body a i{
+ color: rgb(216, 125, 74);
+}
+.img-top{
+width: 60%;
+margin-bottom: -5rem;
+}
+.buy-body{
+ text-align: bottom;
+ background-color: rgb(229, 225, 225);
+ padding-bottom: 1rem;
+ padding-top: 3rem;
+ border-radius: 1rem;
+ margin-bottom: 1rem;
+}
+.s-b-h span{
+ color:rgb(216, 125, 74 ) ;
+}
+
+.foot-item a{
+ list-style: none;
+ text-decoration: none;
+ color: white;
+}
+.foot-item a:hover{
+ color: rgb(216, 125, 74 );
+}
+.icons a{
+ color: white;
+}
+.icons a:hover{
+ color: rgb(216, 125, 74 );
+}
+.head{
+ margin-bottom: 7rem;
+}
+.section{
+ margin-bottom: 7rem;
+}
+.buy-section{
+ margin-top: 10rem;
+ margin-bottom: 10rem;
+}
+.bring{
+ margin-bottom: 7rem;
+}
