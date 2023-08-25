@@ -121,7 +121,8 @@ margin-bottom: -2rem;
 }
 .buy-section{
  width: 100vw;
- margin-bottom: 5rem;
+ margin-bottom: 6rem;
+ margin-top: 6rem;
 }
 .btn3{
  border: transparent;
@@ -189,9 +190,18 @@ margin-bottom: -5rem;
  color: rgb(216, 125, 74 );
 }
 
+.bottom-body{
+   margin-top: 7rem;
+   margin-bottom: 5rem;
+}
+.speaker{
+   margin-top: 7rem;
+   margin-bottom: 7rem;
+}
 
+/* 
 @media only screen and (min-width:319px) and (max-width:700px) {
  .xx99{
  background-position:75%;
 }
-}
+} */
