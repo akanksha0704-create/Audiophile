@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Audiophile</title>
+  <title>Document</title>
   <!-- bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <!-- css link  -->
-  <link rel="stylesheet" href="assets/home.css">
+  <link rel="stylesheet" href="style.css">
   <!-- font awesome link  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -23,12 +23,12 @@
 
 <body>
   <!-- navigation bar  -->
-  <div class="nav-cont container-fluid">
+  <div class="nav-cont container-fluid bg-dark">
     <nav class="navbar navbar-expand-lg">
       <div class="container border-md-bottom mx-auto">
         <!-- logo  -->
-        <a class="navbar-brand order-2 order-lg-1" href="#">
-          <img src="assets/shared/desktop/logo.svg" alt="">
+        <a class="navbar-brand order-2 order-lg-1" href="../index.html">
+          <img src="../assets/shared/desktop/logo.svg" alt="">
         </a>
         <!-- collapse nav -->
         <button class="navbar-toggler order-1 order-lg-2" type="button" data-bs-toggle="collapse"
@@ -40,117 +40,87 @@
         <div class="collapse navbar-collapse justify-content-center order-1 order-lg-2" id="navbarSupportedContent">
           <ul class="navbar-nav py-3">
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="../index.html">HOME</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">HEADPHONES</a>
+              <a class="nav-link" href="../Headphone/">HEADPHONES</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">SPEAKERS</a>
+              <a class="nav-link" href="../Speaker/">SPEAKERS</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">EARPHONES</a>
+              <a class="nav-link active" href="./">EARPHONES</a>
             </li>
           </ul>
         </div>
         <!-- cart  -->
         <a class="navbar-brand text-white order-3" href="#">
-          <img src="assets/shared/desktop/icon-cart.svg" alt="">
+          <img src="../assets/shared/desktop/icon-cart.svg" alt="">
         </a>
       </div>
     </nav>
   </div>
 
-  <!-- new product  -->
-  <div class="xx99 container-fluid bg-dark">
-    <div class=" container">
-      <div class=" row">
-        <div class="xx99-body col-md-6 text-white text-center text-md-start">
-          <h6>NEW PRODUCT</h6>
-          <h1>XX99 MARK II HEADPHONES</h1>
-          <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
-          </p>
-          <button class="btn btn-primary">See Product</button>
-        </div>
+  <!-- heading  -->
+  <div class="head container-fluid bg-dark">
+    <div class="container border-md-top pt-5 pb-5">
+      <h1 class="text-white text-center">EARPHONES</h1>
+    </div>
+  </div>
+  <!-- section 1  -->
+  <div class="section container text-center text-md-start">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../assets/category-earphones/desktop/image-yx1-earphones.jpg" alt="" class="image-container">
+      </div>
+      <div class="col-md-6 align-self-center px-5">
+        <h6 class="sub-head text-uppercase">New product</h6>
+        <h2 class="text-uppercase">YX1 wireless earphones</h2>
+        <p>Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones.Enjoy
+          incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.</p>
+        <a href="../YX1 Wireless Earphones/"><button class="btn btn-primary">See Product</button></a>
       </div>
     </div>
   </div>
 
+
   <!-- BUY SECTION  -->
-  <div class="buy-section container mt-5">
+  <div class="buy-section container">
     <div class="row align-items-center justify-content-center">
       <div class="col-md-4 text-center pb-3">
         <div class="image">
-          <img src="assets/shared/desktop/image-headphones.png" class="img-top">
+          <img src="../assets/shared/desktop/image-headphones.png" class="img-top">
         </div>
         <div class="buy-body">
           <h5 class="title">HEADPHONES</h5>
-          <a href="#"><button class="btn3 btn-primary">Shop Now</button><i class="fa-solid fa-chevron-right"></i></a>
+          <a href="../Headphone/"><button class="btn3 btn-primary">Shop Now</button><i
+              class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
       <div class="col-md-4 text-center mt-1 pb-3">
         <div class="image">
-          <img src="assets/shared/desktop/image-speakers.png" class="img-top">
+          <img src="../assets/shared/desktop/image-speakers.png" class="img-top">
         </div>
         <div class="buy-body">
           <h5 class="title">SPEAKERS</h5>
-          <a href="#"><button class="btn3 btn-primary">Shop Now</button><i class="fa-solid fa-chevron-right"></i></a>
+          <a href="../Speaker/"><button class="btn3 btn-primary">Shop Now</button><i
+              class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
       <div class="col-md-4 text-center mt-3">
         <div class="image">
-          <img src="assets/shared/desktop/image-earphones.png" class="img-top">
+          <img src="../assets/shared/desktop/image-earphones.png" class="img-top">
         </div>
         <div class="buy-body">
           <h5 class="title">EARPHONES</h5>
-          <a href="#"><button class="btn3 btn-primary">Shop Now</button><i class="fa-solid fa-chevron-right"></i></a>
+          <a href="../Earphones/"><button class="btn3 btn-primary">Shop Now</button><i
+              class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- orange container  -->
-  <div class="container align-items-center mb-5">
-    <div class="row orange mx-1 mx-md-0">
-      <div class="col-md-6 align-self-center text-center">
-        <img src="assets/home/desktop/image-speaker-zx9.png" alt="" class="image-container2 py-3 pt-md-3 py-md-0">
-      </div>
-      <div class="col-md-6 text-right text-white text-center align-self-center text-md-start pt-5 pt-md-0">
-        <h2>ZX9 SPEAKER</h2>
-        <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
-        <button class="btn2 btn-primary">See Product</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- z-7 speaker  -->
-  <div class="container mb-5">
-    <div class="section border row mx-auto">
-      <div class="section-body col-md-6 align-self-center text-center text-md-start order-2 order-md-1">
-        <h4>ZX7 SPEAKER</h4>
-        <button class="btn4 btn-primary mb-3">See Product</button>
-      </div>
-      <div class="col-md-6 order-1 order-md-2">
-        <img src="assets/home/desktop/image-speaker-zx7.jpg" alt="" class="section-image-container">
-      </div>
-    </div>
-  </div>
-  <!-- yxi earphones  -->
-  <div class="container mb-5">
-    <div class="section border row mx-auto">
-      <div class="col-md-6 text-center text-md-start">
-        <img src="assets/home/desktop/image-earphones-yx1.jpg" alt="" class="section-image-container">
-      </div>
-      <div class="section-body col-md-6 align-self-center text-center text-md-start">
-        <h4>ZX7 SPEAKER</h4>
-        <button class="btn4 btn-primary mb-3">See Product</button>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
   <!-- bringing you  -->
-  <div class="container mb-5 text-center text-md-start">
+  <div class="bring container text-center text-md-start">
     <div class="row mx-auto">
       <div
         class="section-body-2 col-lg-6 align-self-center text-center text-md-start px-4 px-md-5 py-5 order-2 order-lg-1">
@@ -161,18 +131,18 @@
           fantastic people who make Audiophile the best place to buy your portable audio equipment.</p>
       </div>
       <div class="col-lg-6 align-self-center order-1 order-lg-2">
-        <img src="assets/shared/desktop/image-best-gear.jpg" alt="" class="section-image-container">
+        <img src="../assets/shared/desktop/image-best-gear.jpg" alt="" class="image-container">
       </div>
     </div>
   </div>
 
   <!-- footer  -->
-  <div class="container-fluid bg-dark align-items-center text-md-center">
+  <div class="footer container-fluid bg-dark align-items-center text-md-center">
     <div class="container">
       <div class="row pt-5">
         <div class="col-md-6 text-white text-center text-md-start px-5">
-          <a class="navbar-brand" href="#">
-            <img src="assets/shared/desktop/logo.svg" alt="">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/shared/desktop/logo.svg" alt="">
           </a>
           <p class="pt-5 pb-2">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of
             music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come
@@ -182,12 +152,12 @@
         </div>
         <div class="col-md-6 text-center text-md-right d-flex flex-column justify-content-between align-items-end">
           <div class="ul footer-item d-flex flex-column flex-md-row mx-auto mx-md-0 mb-auto">
-            <li class="foot-item pb-2"><a href="#">HOME</a></li>
-            <li class="foot-item pb-2"><a href="#">HEADPHONE</a></li>
-            <li class="foot-item pb-2"><a href="#">SPEAKERS</a></li>
-            <li class="foot-item pb-2"><a href="#">EARPHONES</a></li>
+            <li class="foot-item pb-2"><a href="../index.html">HOME</a></li>
+            <li class="foot-item pb-2"><a href="../Headphone/">HEADPHONE</a></li>
+            <li class="foot-item pb-2"><a href="../Speaker/">SPEAKERS</a></li>
+            <li class="foot-item pb-2"><a href="./">EARPHONES</a></li>
           </div>
-          <div class="icons d-flex mx-auto mx-md-0 mb-5">
+          <div class="icons d-flex mx-auto mx-md-0 mb-5 pt-5">
             <a class="fa" href="#"><i class="fa-brands fa-facebook fa-xl p-2"></i></a>
             <a class="fa" href="#"><i class="fa-brands fa-twitter fa-xl  p-2"></i></a>
             <a class="fa" href="#"><i class="fa-brands fa-instagram fa-xl  p-2"></i></a>
@@ -197,6 +167,12 @@
     </div>
   </div>
   </div>
+
+
+
+
+
+
 
 
 

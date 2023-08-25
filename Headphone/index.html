@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <!-- css link  -->
-  <link rel="stylesheet" href="page10.css">
+  <link rel="stylesheet" href="style.css">
   <!-- font awesome link  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -23,12 +23,12 @@
 
 <body>
   <!-- navigation bar  -->
-  <div class="nav-cont container-fluid bg-dark mb-5">
+  <div class="nav-cont container-fluid bg-dark">
     <nav class="navbar navbar-expand-lg">
       <div class="container border-md-bottom mx-auto">
         <!-- logo  -->
-        <a class="navbar-brand order-2 order-lg-1" href="#">
-          <img src="assets/shared/desktop/logo.svg" alt="">
+        <a class="navbar-brand order-2 order-lg-1" href="../index.html">
+          <img src="../assets/shared/desktop/logo.svg" alt="">
         </a>
         <!-- collapse nav -->
         <button class="navbar-toggler order-1 order-lg-2" type="button" data-bs-toggle="collapse"
@@ -40,167 +40,116 @@
         <div class="collapse navbar-collapse justify-content-center order-1 order-lg-2" id="navbarSupportedContent">
           <ul class="navbar-nav py-3">
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="../index.html">HOME</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">HEADPHONES</a>
+              <a class="nav-link active" href="./">HEADPHONES</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">SPEAKERS</a>
+              <a class="nav-link" href="../Speaker">SPEAKERS</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">EARPHONES</a>
+              <a class="nav-link" href="../Earphones">EARPHONES</a>
             </li>
           </ul>
         </div>
         <!-- cart  -->
         <a class="navbar-brand text-white order-3" href="#">
-          <img src="assets/shared/desktop/icon-cart.svg" alt="">
+          <img src="../assets/shared/desktop/icon-cart.svg" alt="">
         </a>
       </div>
     </nav>
   </div>
 
-  <div class="container mb-5 mt-3">
-    <a class="back" href="#">Go Back</a>
+  <!-- heading  -->
+  <div class="head container-fluid bg-dark">
+    <div class="container border-md-top pt-5 pb-5">
+      <h1 class="text-white text-center">HEADPHONES</h1>
+    </div>
   </div>
-
-
-
   <!-- section 1  -->
-  <div class="section container text-start">
+  <div class="section container text-center text-md-start">
     <div class="row">
       <div class="col-md-6">
-        <img src="assets/product-yx1-earphones/desktop/image-product.jpg" alt="" class="image-container">
+        <img src="../assets/category-headphones/desktop/image-xx99-mark-two.jpg" alt="" class="image-container">
       </div>
       <div class="col-md-6 align-self-center px-5">
         <h6 class="sub-head text-uppercase">New product</h6>
-        <h3 class="text-uppercase">YX1 Wireless Earphones</h3>
-        <p>Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones.
-          Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.
-        </p>
-        <h5>$599</h5>
-        <button class="btn btn-primary">Add to Cart</button>
+        <h2 class="text-uppercase">XX99 Mark II Headphones</h2>
+        <p>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone
+          experience
+          by reproducing the balanced depth and precision of studio-quality sound.</p>
+        <a href="../xx99-mark-two-headphones/"><button class="btn btn-primary">See Product</button></a>
       </div>
     </div>
   </div>
   <!-- section 2  -->
-  <div class="section container text-start">
+  <div class="section container text-center text-md-start">
     <div class="row">
-      <div class="col-md-6 align-self-center px-5">
-        <h3 class="text-uppercase">Features</h3>
-        <p>Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics
-          designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with
-          the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and
-          truly immersive sound.</p>
-        <p>The YX1 Wireless Earphones features customizable controls for volume, music, calls, and voice assistants
-          built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case,
-          giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in
-          an all new white and grey color scheme as well as the popular classic black.
-        </p>
+      <div class="col-md-6 order-1 order-md-2">
+        <img src="../assets/category-headphones/desktop/image-xx99-mark-one.jpg" alt="" class="image-container">
       </div>
-      <div class="col-md-6 px-5">
-        <h3>In the Box</h3>
-        <div class="line">
-          <h5><span>2x</span> Earphone unit</h5>
-          <h5><span>6x</span> Multi-size earplugs</h5>
-          <h5><span>1x</span> User manual</h5>
-          <h5><span>1x</span> USB-C charging cable</h5>
-          <h5><span>1x</span> Travel pouch</h5>
-
-        </div>
+      <div class="col-md-6 align-self-center px-5 order-2 order-md-1">
+        <h2 class="text-uppercase">XX99 Mark I Headphones</h2>
+        <p>As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction
+          for
+          audiophiles, mixing engineers, and music aficionados alike in studios and on the go.</p>
+        <a href="../XX99 MARK I HEADPHONES/"><button class="btn btn-primary">See Product</button></a>
       </div>
     </div>
   </div>
-
   <!-- section 3  -->
-  <div class="section container mx-auto">
+  <div class="section container text-center text-md-start">
     <div class="row">
-      <div class="col-md-6 mx-0">
-        <div class="row">
-          <div class="col-md-12">
-            <img src="assets/product-yx1-earphones/desktop/image-gallery-1.jpg" class="image-container2" alt="Image 2">
-          </div>
-          <div class="col-md-12 mt-2"> <!-- mt-0 to remove top margin -->
-            <img src="assets/product-yx1-earphones/desktop/image-gallery-2.jpg" class="image-container2" alt="Image 3">
-          </div>
-        </div>
+      <div class="col-md-6">
+        <img src="../assets/category-headphones/desktop/image-xx59.jpg" alt="" class="image-container">
       </div>
-      <div class="col-md-6 mt-2 mt-md-0">
-        <img src="assets/product-yx1-earphones/desktop/image-gallery-3.jpg" class="image-container3" alt="Image 1">
+      <div class="col-md-6 align-self-center px-5">
+        <h2 class="text-uppercase">XX59 Headphones</h2>
+        <p>Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones.The
+          stylish
+          yet durable versatile wireless headset is a brilliant companion at home or on the move.</p>
+        <a href="../XX59 Headphones"><button class="btn btn-primary">See Product</button></a>
       </div>
     </div>
   </div>
-
-  <!-- cards  -->
-  <div class="container">
-    <div class="row">
-      <h4 class="text-center p-5">YOU MAY ALSO LIKE</h4>
-      <div class="col-md-4">
-        <div class="card border-0">
-          <img src="assets/shared/desktop/image-xx99-mark-one-headphones.jpg" alt="Card Image 1" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">XX99 MARK I</h5>
-            <button class="btn btn-primary">See Product</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card border-0">
-          <img src="assets/shared/desktop/image-xx59-headphones.jpg" alt="Card Image 2" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">XX59</h5>
-            <button class="btn btn-primary">See Product</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card border-0">
-          <img src="assets/shared/desktop/image-zx9-speaker.jpg" alt="Card Image 3" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">ZX9 SPEAKER</h5>
-            <button class="btn btn-primary">See Product</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
   <!-- BUY SECTION  -->
   <div class="buy-section container">
     <div class="row align-items-center justify-content-center">
       <div class="col-md-4 text-center pb-3">
         <div class="image">
-          <img src="assets/shared/desktop/image-headphones.png" class="img-top">
+          <img src="../assets/shared/desktop/image-headphones.png" class="img-top">
         </div>
         <div class="buy-body">
           <h5 class="title">HEADPHONES</h5>
-          <a href="#"><button class="btn3 btn-primary">Shop Now</button><i class="fa-solid fa-chevron-right"></i></a>
+          <a href="../Headphone"><button class="btn3 btn-primary">Shop Now</button><i
+              class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
       <div class="col-md-4 text-center mt-1 pb-3">
         <div class="image">
-          <img src="assets/shared/desktop/image-speakers.png" class="img-top">
+          <img src="../assets/shared/desktop/image-speakers.png" class="img-top">
         </div>
         <div class="buy-body">
           <h5 class="title">SPEAKERS</h5>
-          <a href="#"><button class="btn3 btn-primary">Shop Now</button><i class="fa-solid fa-chevron-right"></i></a>
+          <a href="../Speaker"><button class="btn3 btn-primary">Shop Now</button><i
+              class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
       <div class="col-md-4 text-center mt-3">
         <div class="image">
-          <img src="assets/shared/desktop/image-earphones.png" class="img-top">
+          <img src="../assets/shared/desktop/image-earphones.png" class="img-top">
         </div>
         <div class="buy-body">
           <h5 class="title">EARPHONES</h5>
-          <a href="#"><button class="btn3 btn-primary">Shop Now</button><i class="fa-solid fa-chevron-right"></i></a>
+          <a href="../Earphones"><button class="btn3 btn-primary">Shop Now</button><i
+              class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
     </div>
   </div>
   <!-- bringing you  -->
-  <div class="bring container text-center text-lg-start">
+  <div class="bring container text-center text-md-start">
     <div class="row mx-auto">
       <div
         class="section-body-2 col-lg-6 align-self-center text-center text-md-start px-4 px-md-5 py-5 order-2 order-lg-1">
@@ -211,7 +160,7 @@
           fantastic people who make Audiophile the best place to buy your portable audio equipment.</p>
       </div>
       <div class="col-lg-6 align-self-center order-1 order-lg-2">
-        <img src="assets/shared/desktop/image-best-gear.jpg" alt="" class="image-container">
+        <img src="../assets/shared/desktop/image-best-gear.jpg" alt="" class="image-container">
       </div>
     </div>
   </div>
@@ -221,8 +170,8 @@
     <div class="container">
       <div class="row pt-5">
         <div class="col-md-6 text-white text-center text-md-start px-5">
-          <a class="navbar-brand" href="#">
-            <img src="assets/shared/desktop/logo.svg" alt="">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/shared/desktop/logo.svg" alt="">
           </a>
           <p class="pt-5 pb-2">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of
             music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come
@@ -232,10 +181,10 @@
         </div>
         <div class="col-md-6 text-center text-md-right d-flex flex-column justify-content-between align-items-end">
           <div class="ul footer-item d-flex flex-column flex-md-row mx-auto mx-md-0 mb-auto">
-            <li class="foot-item pb-2"><a href="#">HOME</a></li>
-            <li class="foot-item pb-2"><a href="#">HEADPHONE</a></li>
-            <li class="foot-item pb-2"><a href="#">SPEAKERS</a></li>
-            <li class="foot-item pb-2"><a href="#">EARPHONES</a></li>
+            <li class="foot-item pb-2"><a href="../index.html">HOME</a></li>
+            <li class="foot-item pb-2"><a href="../Headphone">HEADPHONE</a></li>
+            <li class="foot-item pb-2"><a href="../Speaker">SPEAKERS</a></li>
+            <li class="foot-item pb-2"><a href="../Earphones">EARPHONES</a></li>
           </div>
           <div class="icons d-flex mx-auto mx-md-0 mb-5 pt-5">
             <a class="fa" href="#"><i class="fa-brands fa-facebook fa-xl p-2"></i></a>

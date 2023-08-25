@@ -55,9 +55,14 @@ p{
  color: white;
  font-weight: bold;
 }
-
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(216, 125, 74);
+}
 .nav-link:hover{
 color: rgb(216, 125, 74);
+}
+.sub-head{
+ color:rgb(216, 125, 74) ;
 }
 .image-container{
  width: 100%;

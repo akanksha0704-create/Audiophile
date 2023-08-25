@@ -49,18 +49,20 @@ p{
   padding-top: 12px;
  padding-bottom: 12px;
 }
+.sub-head{
+ color:rgb(216, 125, 74) ;
+}
 .nav-link{
  font-size: 13px;
  letter-spacing: 1.7px;
  color: white;
  font-weight: bold;
 }
-
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(216, 125, 74);
+}
 .nav-link:hover{
 color: rgb(216, 125, 74);
-}
-.sub-head{
- color:rgb(216, 125, 74) ;
 }
 .image-container{
  width: 100%;
