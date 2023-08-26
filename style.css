@@ -95,13 +95,15 @@ color: rgb(216, 125, 74);
 }
 .xx99{
  background-image: url(./assets/home/desktop/image-hero.jpg);
-background-position-x: 50%;
+background-position-x: 60%;
 background-position-y: 100%;
 background-size: cover;
-height: 85vh;
+height: 90vh;
 margin: auto;
 }
-
+.xx99-body{
+   padding: 4rem 1rem;
+}
 
 .orange{
  background-color:rgb(216, 125, 74 );
@@ -199,9 +201,19 @@ margin-bottom: -5rem;
    margin-bottom: 7rem;
 }
 
-/* 
-@media only screen and (min-width:319px) and (max-width:700px) {
+
+@media only screen and (min-width:319px) and (max-width:370px) {
  .xx99{
- background-position:75%;
+ background-position:76%;
 }
-} */
+}
+@media only screen and (min-width:370px) and (max-width:410px) {
+ .xx99{
+ background-position:78%;
+}
+}
+@media only screen and (min-width:410px) and (max-width:750px) {
+ .xx99{
+ background-position:80%;
+}
+}
