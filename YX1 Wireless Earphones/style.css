@@ -61,6 +61,22 @@ p{
 .nav-link:hover{
 color: rgb(216, 125, 74);
 }
+.foot-item{
+   list-style: none;
+}
+.foot-link{
+   color: white;
+text-decoration: none;
+}
+.foot-link:hover{
+color: rgb(216, 125, 74);
+}
+.fa{
+   color: white;
+}
+.fa:hover{
+color: rgb(216, 125, 74);
+}
 .image-container{
  width: 100%;
  height: auto;
@@ -123,20 +139,7 @@ margin-bottom: -5rem;
  color:rgb(216, 125, 74 ) ;
 }
 
-.foot-item a{
- list-style: none;
- text-decoration: none;
- color: white;
-}
-.foot-item a:hover{
- color: rgb(216, 125, 74 );
-}
-.icons a{
- color: white;
-}
-.icons a:hover{
- color: rgb(216, 125, 74 );
-}
+
 .head{
  margin-bottom: 7rem;
 }
@@ -159,4 +162,11 @@ margin-bottom: -5rem;
 }
 .line span{
  color: rgb(216, 125, 74 );
+}
+
+
+@media screen and (min-width : 315px) and (max-width : 700px){
+   .foot-item{ 
+      margin: auto;
+   }
 }

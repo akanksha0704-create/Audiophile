@@ -23,21 +23,21 @@
 
 <body>
   <!-- navigation bar  -->
-  <div class="nav-cont container-fluid">
+  <div class="hero nav-cont container-fluid">
     <nav class="navbar navbar-expand-lg">
       <div class="container border-md-bottom mx-auto">
         <!-- logo  -->
-        <a class="navbar-brand order-2 order-lg-1" href="./">
+        <a class="navbar-brand" href="./">
           <img src="./assets/shared/desktop/logo.svg" alt="">
         </a>
         <!-- collapse nav -->
-        <button class="navbar-toggler order-1 order-lg-2" type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- nav item links  -->
-        <div class="collapse navbar-collapse justify-content-center order-1 order-lg-2" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-center order-2" id="navbarSupportedContent">
           <ul class="navbar-nav py-3">
             <li class="nav-item px-2">
               <a class="nav-link active" href="./">HOME</a>
@@ -54,27 +54,28 @@
           </ul>
         </div>
         <!-- cart  -->
-        <a class="navbar-brand text-white order-3" href="#">
+        <a class="navbar-brand text-white ms-auto order-1 order-lg-2" href="#">
           <img src="./assets/shared/desktop/icon-cart.svg" alt="">
         </a>
       </div>
     </nav>
-  </div>
-
-  <!-- new product  -->
-  <div class="xx99 container-fluid bg-dark">
-    <div class=" container d-flex align-items-center">
-      <div class="row">
-        <div class="xx99-body col-md-6 text-white text-center text-md-start ">
-          <h6>NEW PRODUCT</h6>
-          <h1>XX99 MARK II HEADPHONES</h1>
-          <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
-          </p>
-          <a href="./xx99-mark-two-headphones"><button class="btn btn-primary ">See Product</button></a>
+    <!-- new product  -->
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="hero-body col-md-6 text-white text-center text-md-start p-md-5 pt-5 mt-2">
+            <h6 class="sub-head">NEW PRODUCT</h6>
+            <h1>XX99 MARK II HEADPHONES</h1>
+            <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music
+              enthusiast.
+            </p>
+            <a href="./xx99-mark-two-headphones"><button class="btn btn-primary ">See Product</button></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <!-- BUY SECTION  -->
   <div class="buy-section container">
@@ -127,36 +128,30 @@
   </div>
 
   <!-- z-7 speaker  -->
-  <div class="z-7-speaker container mt-5 mb-5">
-    <div class="section border row mx-auto">
-      <div class="section-body col-md-6 align-self-center text-center text-md-start order-2 order-md-1">
+  <div class=" container align-items-center">
+    <div class="row section-image mx-2">
+      <div class="col-md-12 section-body text-start">
         <h4>ZX7 SPEAKER</h4>
-        <a href="./ZX7 Speaker"><button class="btn4 btn-primary mb-3">See Product</button></a>
-      </div>
-      <div class="col-md-6 order-1 order-md-2">
-        <img src="./assets/home/desktop/image-speaker-zx7.jpg" alt="" class="section-image-container">
+        <a href="./ZX7 Speaker"><button class="btn4 btn-primary">See Product</button></a>
       </div>
     </div>
   </div>
   <!-- yxi earphones  -->
-  <div class="y-x-earphone container mb-5 mt-5">
-    <div class="section border row mx-auto">
-      <div class="col-md-6 text-center text-md-start">
-        <img src="./assets/home/desktop/image-earphones-yx1.jpg" alt="" class="section-image-container">
-      </div>
-      <div class="section-body col-md-6 align-self-center text-center text-md-start">
+  <div class=" container align-items-center my-5">
+    <div class="row section-image-2 mx-2">
+      <div class="col-md-12 section-body text-start text-white">
         <h4>YX1 EARPHONES</h4>
         <a href="./YX1 Wireless Earphones"><button class="btn4 btn-primary mb-3">See Product</button></a>
       </div>
     </div>
   </div>
-  </div>
-  </div>
+
+
   <!-- bringing you  -->
   <div class="bottom-body container text-center text-md-start">
     <div class="row mx-auto">
       <div
-        class="section-body-2 col-lg-6 align-self-center text-center text-md-start px-4 px-md-5 py-5 order-2 order-lg-1">
+        class="section-body-2 col-lg-6 align-self-center text-center text-md-start px-3 px-md-5 py-5 order-2 order-lg-1">
         <h2 class="s-b-h text-uppercase ">Bringing you the <span>best</span> audio gear</h2>
         <p class="">Located at the heart of New York City, Audiophile is the premier store for high end
           headphones,earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms
@@ -170,31 +165,48 @@
   </div>
 
   <!-- footer  -->
-  <div class=" mt-5 container-fluid bg-dark align-items-center text-md-center">
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-md-6 text-white text-center text-md-start px-5">
-          <a class="navbar-brand" href="./">
+  <div class="container-fluid bg-dark text-white">
+    <div class="container bg-dark py-5">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start py-3 py-md-0">
+          <a class="footer-brand" href="./">
             <img src="./assets/shared/desktop/logo.svg" alt="">
           </a>
-          <p class="pt-5 pb-2">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of
+        </div>
+        <div class="col-md-6 py-3 py-md-0 ">
+          <ul class="footer d-flex flex-md-row flex-column justify-content-end">
+            <li class="foot-item">
+              <a class="foot-link active px-md-2" href="./">HOME</a>
+            </li>
+            <li class="foot-item ">
+              <a class="foot-link px-md-2" href="./Headphone">HEADPHONES</a>
+            </li>
+            <li class="foot-item">
+              <a class="foot-link px-md-2" href="./Speaker">SPEAKERS</a>
+            </li>
+            <li class="foot-item">
+              <a class="foot-link px-md-2" href="./Speaker">EARPHONES</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row align-items-end">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="pt-3 pb-3 px-2 px-md-0">Audiophile is an all in one stop to fulfill your audio needs. We're a small
+            team of
             music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come
             and visit our demo facility - we’re open 7 days a week.
           </p>
-          <p>Copyright 2021. All Rights Reserved</p>
         </div>
-        <div class="col-md-6 text-center text-md-right d-flex flex-column justify-content-between align-items-end">
-          <div class="ul footer-item d-flex flex-column flex-md-row mx-auto mx-md-0 mb-auto">
-            <li class="foot-item pb-2"><a href="./">HOME</a></li>
-            <li class="foot-item pb-2"><a href="./Headphone">HEADPHONE</a></li>
-            <li class="foot-item pb-2"><a href="./Speaker">SPEAKERS</a></li>
-            <li class="foot-item pb-2"><a href="./Earphones">EARPHONES</a></li>
-          </div>
-          <div class="icons d-flex mx-auto mx-md-0 mb-5">
-            <a class="fa" href="#"><i class="fa-brands fa-facebook fa-xl p-2"></i></a>
-            <a class="fa" href="#"><i class="fa-brands fa-twitter fa-xl  p-2"></i></a>
-            <a class="fa" href="#"><i class="fa-brands fa-instagram fa-xl  p-2"></i></a>
-          </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a class="fa" href="#"><i class="fa-brands fa-facebook fa-xl p-2 "></i></a>
+          <a class="fa" href="#"><i class="fa-brands fa-twitter fa-xl  p-2"></i></a>
+          <a class="fa" href="#"><i class="fa-brands fa-instagram fa-xl  p-2"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start py-3 py-md-0">
+          <p>Copyright 2021. All Rights Reserved</p>
         </div>
       </div>
     </div>
