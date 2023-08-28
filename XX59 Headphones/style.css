@@ -117,6 +117,12 @@ color: rgb(216, 125, 74);
 .btn3:hover{
  color: rgb(216, 125, 74);
 }
+.buy-section{
+ width: 100vw;
+padding-top: 5rem;
+margin-bottom: 10rem;
+}
+
 .buy-body a i{
  color: rgb(216, 125, 74);
 }
@@ -124,13 +130,13 @@ color: rgb(216, 125, 74);
 width: 60%;
 margin-bottom: -5rem;
 }
+
 .buy-body{
  text-align: bottom;
  background-color: rgb(229, 225, 225);
  padding-bottom: 1rem;
- padding-top: 3rem;
+ padding-top: 5rem;
  border-radius: 1rem;
- margin-bottom: 1rem;
 }
 .s-b-h span{
  color:rgb(216, 125, 74 ) ;
@@ -143,10 +149,7 @@ margin-bottom: -5rem;
 .section{
  margin-bottom: 7rem;
 }
-.buy-section{
- margin-top: 10rem;
- margin-bottom: 10rem;
-}
+
 .bring{
  margin-bottom: 7rem;
 }

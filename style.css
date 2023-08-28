@@ -82,11 +82,7 @@ color: rgb(216, 125, 74);
 color: rgb(216, 125, 74);
 }
 
-@media screen and (min-width : 315px) and (max-width : 700px){
-   .foot-item{ 
-      margin: auto;
-   }
-}
+
 /* buttons  */
 .btn{
  background-color:rgb(216, 125, 74);
@@ -132,9 +128,8 @@ color: rgb(216, 125, 74);
 }
 .hero{
 background-image: url(./assets/home/desktop/image-hero.jpg);
-background-position:center;
+background-position-y: 85%;
  background-size: cover;
- height: 100vh;
  max-width: 100vw;
 }
 
@@ -162,8 +157,9 @@ margin-bottom: -2rem;
 }
 .buy-section{
  width: 100vw;
- margin-bottom: 6rem;
- margin-top: 6rem;
+padding-top: 5rem;
+margin-bottom: 10rem;
+margin-top: 3rem;
 }
 
 .buy-body a i{
@@ -173,13 +169,13 @@ margin-bottom: -2rem;
 width: 60%;
 margin-bottom: -5rem;
 }
+
 .buy-body{
  text-align: bottom;
  background-color: rgb(229, 225, 225);
  padding-bottom: 1rem;
- padding-top: 3rem;
+ padding-top: 5rem;
  border-radius: 1rem;
- margin-bottom: 1rem;
 }
 .section-image-container{
 width: 100%;
@@ -205,13 +201,6 @@ width: 100%;
    border-radius: 12px;
 }
 
-.section-body{
-    width: 100%;
-    height: 100%;
-   border-radius: 24px;
-padding-top: 5rem;
-padding-left: 2.5rem;
-}
 .section-body2{
    background-color: rgb(208, 203, 203);
    border-radius: 24px;
@@ -226,5 +215,116 @@ padding-left: 2.5rem;
    margin-top: 7rem;
    margin-bottom: 7rem;
 }
+.head-hero{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 90vh;
+}
+.z-7-speaker{
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   padding-left: 4rem;
+}
+.y-x-earphone{
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   color: white;
+   padding-left: 4rem;
+}
 
+@media screen and (min-width : 315px) and (max-width : 700px){
+  .foot-item{ 
+      margin: auto;
+   }
+   .z-7-speaker{
+   text-align: center;
+   padding-left: 0;
+}
+.y-x-earphone{
+text-align: center;
+padding-left: 0;
+}
+}
 
+/* media query   */
+
+@media screen and (min-width : 319px){
+   .hero{
+background-position-y: 75%;
+background-position-x: 75%;
+}
+
+}
+@media screen and (min-width : 700px){
+   .hero{
+background-position-y: 75%;
+background-position-x: 45%;
+}
+.content{
+   width: 50%;
+   padding: 1rem;
+}
+
+}
+@media (min-width: 950px) and (min-height: 600px){
+      .hero{
+background-position-y: 75%;
+background-position-x: 45%;
+}
+.content{
+   width: 50%;
+   padding: 1rem;
+}
+}
+@media (min-width: 950px) and (min-height: 600px){
+      .hero{
+background-position-y: 75%;
+background-position-x: 45%;
+}
+.content{
+   width: 50%;
+   padding: 1rem;
+}
+}
+@media (min-width: 1023px) and (min-height: 850px){
+      .hero{
+background-position-y: 75%;
+background-position-x: 60%;
+}
+.content{
+   width: 50%;
+   padding: 2rem;
+}
+.head-hero{
+   height: 50vh;
+}
+}
+@media (min-width: 850px) and (min-height: 1023px){
+      .hero{
+background-position-y: 75%;
+background-position-x: 50%;
+}
+.content{
+   width: 50%;
+   padding: 2rem;
+}
+.head-hero{
+   height: 50vh;
+}
+}
+@media (min-width: 1360px) and (min-height: 1023px){
+      .hero{
+background-position-y: 75%;
+background-position-x: 50%;
+}
+.content{
+   width: 50%;
+   padding: 2rem;
+}
+.head-hero{
+   height: 50vh;
+}
+}
